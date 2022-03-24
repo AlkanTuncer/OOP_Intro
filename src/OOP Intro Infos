@@ -1,0 +1,28 @@
+        /*
+            1. Makine Dili ile - Binary 0-1
+            2. Assembly Dili ile
+            3. Yüksek Seviyeli Diller ile
+
+                A. Yapısal Programlama Dilleri
+                     procedure: return yapmayan 'void' metotlar gibi
+                     function : çağrıldığı yere değer döndüren metotlar gibi
+
+                B. Nesneye Dayalı Programlama Dilleri - OOP - Object Oriented Programing
+                     metotlar ve veriler birlikte bir çatı altında bulunur.
+                     kodlar hem clean hem clear'dır. yazılan kodlar tekrar tekrar kullanılabilir.
+                     DRY - Dont Repeat Yourself  --> aynı işi yapan kodlar tekrar tekrar yazılmamalı
+                     maintenance, modification, debugging
+         */
+
+          NESNEYE DAYALI PROGRAMLAMA PRENSİPLERİ
+
+          1.Bütün nesneler kalıtım yoluyla özellikleri ve davranışları miras alır. Yani Ata sınıfından-classtan metotları alır.
+          Bütün classların atası OBJECT CLASS'tan alır. Tanımlanmıs yazılmış bütün metotlar burda bulunur.
+
+          2.Veriler-Data Members --> İhtiyac duyulan verileri hafızada saklayan değişkenler
+            Methods --> Eylemleri gercekleştiren üyelerimiz.
+            Üyelerimiz dışardan gelicek zararlı isteklere karsı koruma altına alınmalıdır.
+            O yüzden Class içindeki üyelerimiz PRIVATE olmalı. 'private String marka;' gibi. onu da getMarka setMarka ile metot olusturarak kullanıyoruz.
+
+
+
